@@ -1,2 +1,3 @@
 # Systeme_de_pointage_RFID
-Arduino, RFID, Pointage, rc522, wemos
+Mots clés:  Arduino, RFID, Pointage, rc522, wemos
+Lien du Blog: https://tingene.com/blog/index.php?article106/rfid-systeme-de-pointage-par-badge-avec-arduino-rc522
