@@ -1,5 +1,8 @@
 /*
- * 
+ * Author: Khadija Diallo
+ *khadi@tingene.com
+ *Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files.
+ *The above copyright notice and this permission notice shall be included in all copies or substantial portions of
  */
 
 #include <FS.h> //ette ligne doit etre au debut du programme sinon celui ci pourrait crasher
@@ -247,7 +250,7 @@ etat = "entree"; // mettre entree ou sortie selon l'etat que vous decidez pour l
 Serial.println("Etat = "+etat);
 
 //Requete
-String url = "/votre_url/send_pointage.php?uidString='"+uidString+"'&currentDate='"+currentDate+"'&heure='"+heure+"'&etat='"+etat+"'";
+String url = "/insert_arduino_data.php?uidString='"+uidString+"'&currentDate='"+currentDate+"'&heure='"+heure+"'&etat='"+etat+"'";
  
 
 //Serial.print("url: ");
